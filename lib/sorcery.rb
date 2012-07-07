@@ -31,6 +31,7 @@ module Sorcery
           autoload :Oauth2, 'sorcery/controller/submodules/external/protocols/oauth2'
         end
         module Providers
+          autoload :Vk, 'sorcery/controller/submodules/external/providers/vk'
           autoload :Twitter, 'sorcery/controller/submodules/external/providers/twitter'
           autoload :Facebook, 'sorcery/controller/submodules/external/providers/facebook'
           autoload :Github, 'sorcery/controller/submodules/external/providers/github'
